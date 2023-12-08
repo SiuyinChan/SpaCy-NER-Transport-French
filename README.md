@@ -12,7 +12,9 @@ The dataset used in this project is composed of approximately 10,000 entries. It
 | `departure`      | Station or town of departure | `string`           |
 | `arrival`        | Station or town of arrival   | `string`           |
 | `transit`        | Station or town of transit   | `string` or `None` |
-| `departure_time` | Departure time               | `string` or `None` |
+| `departure_day`  | Day of departure             | `string` or `None` |
+| `departure_date` | Date of departure            | `string` or `None` |
+| `departure_time` | Time of departure            | `string` or `None` |
 
 ## Dependencies
 Install the dependencies:
