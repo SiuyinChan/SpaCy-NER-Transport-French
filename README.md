@@ -32,7 +32,7 @@ pip install -r requirements.txt
 - Process text data and extract named entities related to transportation.
   ```
   # Process a sample text
-  text = "en passant par Lyon, je pars de Paris pour Marseille le 27 novembre à 9h"
+  text = "le mercredi 27 novembre, je pars de Paris pour Marseille à 9h, en passant par Lyon"
   doc = nlp(text)
 
   # Extract and display named entities
